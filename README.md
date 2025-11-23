@@ -1,1 +1,9 @@
 # Unit Converter
+This Python program is a simple text-based Unit Converter that allows users to convert values between different measurement units. It runs continuously through a loop, presenting the user with a menu of conversion options until they choose to exit. The program covers conversions for distance (kilometers and miles), temperature (Celsius and Fahrenheit), and weight (kilograms and pounds), making it a handy tool for quick and accurate measurements.
+
+At the start, the program defines six conversion functions. Each function performs a specific mathematical operation to switch between units. For example, km_to_miles(km) multiplies kilometers by 0.621371 to get miles, while miles_to_km(miles) divides miles by the same factor to return kilometers. Similarly, temperature conversions use standard formulas where Celsius is converted to Fahrenheit using (C × 9/5) + 32, and Fahrenheit is reversed to Celsius with (F - 32) × 5/9. Weight conversions follow simple multiplication or division by 2.20462 for converting between kilograms and pounds.
+
+The main program logic runs inside an infinite while loop, displaying a user-friendly menu with numbered options. Based on the user’s input choice, a corresponding conversion function is called. The program takes a numeric input from the user, performs the conversion calculation, and prints the result immediately. If the user enters 7, the program displays a farewell message and stops. Any invalid input triggers a message prompting the user to try again.
+
+Overall, this Unit Converter demonstrates basic Python programming concepts, including functions, loops, conditional statements, and user input handling. It emphasizes modular design and arithmetic computation, providing an excellent beginner-level example of how to create an interactive command-line application for everyday utility.
+
